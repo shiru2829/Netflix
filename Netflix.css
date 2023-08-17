@@ -1,0 +1,348 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/netlfix.jpg);
+    color: white;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    list-style-type: none;
+}
+#body{
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 209px;
+}
+#body h1{
+        font-size: 56px;
+        margin-bottom: 0px;
+}
+#body button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+}
+#right{
+    display: flex;
+    gap: 18px;
+    margin-right: 160px;
+}
+#body input{
+    background-color: transparent;
+    width: 190px;
+    height: 50px;
+    width: 348px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+}
+#nav h1{
+    text-decoration: none;
+    margin-left: 125px;
+}
+#Netflix{
+    color: rgb(230, 8, 8);
+    text-decoration: none;
+}
+#menu{
+    list-style-type: none;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+#drop:hover #menu{
+    display: block;
+}
+#right ul li{
+    padding: 8px;
+    display: block;
+}
+#right li:hover{
+   
+    color: white;
+}
+#right button{
+    width: 81px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid crimson;
+}
+#right #eng{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    width: 111px;
+    height: 35px;
+}
+#Enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 150px;
+    
+}
+#Enjoy div{
+    width: 45%;
+}
+#left h1{
+    font-size: 48px;
+}
+#left p{
+    font-size: 24px;
+}
+#right{
+    position: relative;
+}
+#right img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+#right video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#cont{
+    background-color: black;
+}
+#download{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+#download #left #stranger{
+    background-color: black;
+    border: 2px solid grey;
+    position: absolute;
+    border-radius: 5px; 
+    margin: auto;
+    display: flex;
+    z-index: 2;
+    height: 61px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 235px;
+    margin-left: 106px;
+}
+#download div{
+    width: 45%;
+}
+#download #right h1{
+    font-size: 48px;
+    
+}
+#download #right p{
+    font-size: 24px;
+    align-items: right;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#download #left{
+    position: relative;
+}
+#download #left img{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+#download #left{
+    position: relative;
+}
+#watch{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+#watch div{
+    width: 45%;
+}
+#watch #left h1{
+    font-size: 48px;
+}
+#watch #left p{
+    font-size: 24px;
+}
+#watch #right img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+#watch #right video{
+    position: absolute;
+    top: 9%;
+    left: 17%;
+    width: 65%;
+    z-index: 1;
+}
+#create{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    gap: 110px;
+}
+#create div{
+    width: 45%;
+}
+#create #right h1{
+    font-size: 48px;
+    
+}
+#create #right p{
+    font-size: 24px;
+}
+#watch #left{
+    position: relative;
+}
+#watch #left img{
+    width: 100%;
+    height: auto;
+}
+#watch #left{
+    position: relative;
+}
+
+/* -------------Mobile Version----------- */
+@media(max-width:600px){
+    body{
+        
+        background-repeat: no-repeat ;
+    }
+    #nav{
+    
+        height: 120px;
+        list-style-type: none;
+    }
+    #nav h1{
+        text-decoration: none;
+        margin-left: 47px;
+        justify-content: space-between;
+    }
+    #nav h2,h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    #body{
+        align-items: center;
+        display: inline-block;
+        text-align: center;
+        margin-top: 126px;
+        margin-bottom: 90px;
+    }
+    #body h1{
+            font-size: 100px;
+            margin-left: 135px;
+            margin-bottom: 0px;
+    }
+    #right{
+    gap: 18px;
+    margin-right: 0px;
+    }
+    #Enjoy{
+        flex-direction: column;
+        width: 205%;
+    }
+    #Enjoy div{
+        width: 100%;
+        text-align: center;
+    }
+    #left h1{
+    font-size: 55px;
+}
+#left p{
+    font-size: 30px;
+}
+    #right img{
+    
+    height: auto;
+    
+}
+#download{
+    flex-direction: column;
+    width: 205%;
+}
+#download div{
+    width: 100%;
+    text-align: center;
+}
+#download #right h1{
+    font-size: 55px;
+}
+#download #right p{
+    font-size: 30px;
+}
+#download #left img{
+    height: auto;
+}
+#watch{
+    flex-direction: column;
+    width: 205%;
+}
+#watch div{
+    width: 100%;
+    text-align: center;
+}
+#watch #left h1{
+    font-size: 55px;
+}
+#watch #left p{
+    font-size: 30px;
+}
+#watch #right img{
+    height: auto;
+}
+#create{
+    flex-direction: column;
+    width: 205%;
+}
+#create div{
+    width: 100%;
+    text-align: center;
+}
+#create #right h1{
+    font-size: 55px;
+    
+}
+#create #right p{
+    font-size: 30px;
+}
+}
